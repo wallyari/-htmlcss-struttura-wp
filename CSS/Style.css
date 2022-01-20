@@ -22,8 +22,7 @@ header {
 }
 
 .blue-container {
-    height: 400px;
-    background-color:blue ;
+    background-color:#0088fc ;
     margin-bottom: 10px;
         
 }
@@ -31,36 +30,42 @@ header {
 .blue-container .lightblu-hd{ 
     height: 50px;
     width: 100%;
-    background-color: lightblue;
+    background-color: #abcfe7;
     margin-bottom: 10px;
 }
 
 .blue-container .left-lightblu{
     width: 30%;
-    height: 85%;
-    background-color: lightblue;
+    height: 500px;
+    background-color: #abcfe7;
     float:left;
     margin-bottom: 10px;
+
+
     
 } 
 
 .blue-container .right-lightblu{
     width: 30%;
-    height: 85%;
-    background-color: lightblue;
-    float:right;
+    height: 500px;
+    background-color: #abcfe7;
+    float:left;
+
     
     
 }
 
-.blue-container .central-lightblue{
-    background-color:  lightblue;
+/* %30% 20px 40% 20px 30 */
+
+.blue-container .central-lightblu{
+    height: 500px;
+    width: calc(40% - 40px);
+    background-color:  #abcfe7;
     float: left;
-    
-   
-    
-
+    margin-left: 20px;
+    margin-right: 20px;   
 }
+
 
 .clearfix::after {
     content: "";
